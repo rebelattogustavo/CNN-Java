@@ -5,10 +5,14 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
+
+
 public class DataReader {
 
     private final int rows = 28;
     private final int cols = 28;
+    private final int numLabels = 10;
+
 
     public List<Image> readData(String path){
 
